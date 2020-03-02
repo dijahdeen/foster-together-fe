@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <CssBaseline />
-      <Route exact path='/signup' component={SignUp} />
+      <Route exact path='/' component={SignUp} />
       <Route exact path='/dash' component={AdminDash} />
     </>
   )
